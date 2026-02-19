@@ -31,6 +31,7 @@ Aplicación de predicción para ETFs construida con **Streamlit** y modelos de *
 │   └── Page_3.py                    # Visualización de métricas y gráficos de evaluación
 ├── Modelo_Predictivo.ipynb          # Notebook de entrenamiento/evaluación
 ├── generar_walk_forward_dias.py     # Script para generar archivos walk_forward_diaN.pkl
+├── requirements.txt                 # Dependencias del proyecto
 ├── DataSet_General/
 │   └── DATASET_LIMPIO_E_IMPUTADO.csv
 ├── modelos_directos_recientes/      # Modelos y scalers por horizonte (día1..día5)
@@ -67,7 +68,7 @@ Aplicación de predicción para ETFs construida con **Streamlit** y modelos de *
 3. Instala dependencias:
 
 ```bash
-pip install streamlit yfinance pandas numpy plotly tensorflow scikit-learn matplotlib
+pip install -r requirements.txt
 ```
 
 ---
